@@ -1,0 +1,25 @@
+{
+  "name": "apirequest",
+  "version": "1.0.0",
+  "description": "Based on:\r - Minimal configurations\r - Small and easy to use objects\r - Meta programming",
+  "main": "src/index.js",
+  "scripts": {
+    "ts-check": "npx tsc --no-emit",
+    "test": "tests/tests.js"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "files": [
+    "src/",
+    "tests/",
+    "src/index.js",
+    "src/index.d.ts"
+  ],
+  "types": "./src/index.d.ts",
+  "author": "Gadzhiev islam (gadzhievislam20@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.4"
+  }
+}

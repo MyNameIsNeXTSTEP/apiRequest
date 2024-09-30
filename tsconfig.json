@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "NodeNext",
+    "strict": true,
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "checkJs": true, // Ensure JS files are type-checked
+    "allowJs": true, // Allow JS files in the project
+    "noEmit": true, // Prevent emitting any compiled output (we're using tsc for type-checking only)
+    "declaration": true, // Generate .d.ts files (if needed)
+    "declarationMap": true, // Useful for debugging with d.ts files
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.js",
+    "tests/**/*.ts",
+    "tests/**/*.js"
+  ],
+  "exclude": [
+    "dist/**/*",
+    "node_modules",
+  ]
+}
